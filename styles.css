@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style-type: none;
     outline: 0;
+
 }
 body{
   font-family: "Inter", sans-serif;
@@ -74,4 +75,32 @@ button{
 }
 p{
     line-height: 1.2em;
+}
+
+/* Section two */
+/* #information{
+    text-align: center;
+} */
+h2{
+    text-align: center;
+}
+.cards-container{
+    text-align: center;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 5% 15% 10%;
+    /* gap: 1.5em; */
+}
+
+
+.img-container{
+    flex: 1;
+    width:150px;
+    height: 150px;
+    outline: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.card p{
+    width: 100%;
 }
