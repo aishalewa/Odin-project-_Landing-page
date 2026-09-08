@@ -54,7 +54,7 @@ h1{
    color: #F9FAF8;
    font-weight: 900
 }
-button{
+main button{
     background-color: #3882F6;
     color: white;
     width: 120px;
@@ -124,4 +124,30 @@ h2{
     font-weight: 700;
     font-style: normal;
     margin: 2em;
+}
+
+.call-to-action-container{
+    background-color: #3882F6;
+    margin: 10% 15%;
+    padding: 6% 10%;
+    display: flex; 
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+}
+
+.call-to-action p{
+    color: #E5E7EB;
+    font-size: 14px;
+       
+
+}
+.sign-up-btn{
+    width: 100px;
+    border-radius: 5px;
+    outline: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+
 }
