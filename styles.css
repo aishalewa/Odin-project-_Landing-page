@@ -151,3 +151,11 @@ h2{
     padding: 5px;
 
 }
+
+footer{
+    background-color: #1F2937;
+    color: #939ba9;
+    text-align: center;
+    padding: 5% ;
+    font-weight: 700;
+}
